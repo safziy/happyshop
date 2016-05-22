@@ -1,0 +1,30 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html,body{ width:100%; height:100%; background:#f2f3f7;}
+*{ margin:0px; padding:0px; }
+img{ border:none}
+ul,li{ list-style:none}
+.whole { width:100%; height:100%; overflow:auto;}
+.headbg{height:104px;width:100%; overflow:hidden; z-index:2;background:url(../imgs/headbg.png) repeat-x;}
+.middle { padding-top:40px; height:400px; width:1000px; margin:auto;}
+.middle div { float:left;}
+.left {width:487px; height:400px;}
+.line {width:27px; height:400px; background:url(../imgs/line.gif) no-repeat;}
+.right { width:486px; height:400px; font-family:"微软雅黑";}
+.login { width:450px; height:270px; padding:81px 0 0 140px;}
+.loginfont { background:url(../imgs/login.gif) no-repeat; padding-left:40px; width:250px; height:33px; color:#2a5aa0;
+				line-height:33px; padding-bottom:15px; font-weight:bold; font-size:16px}
+.user {width:260px; height:40px; line-height:40px;}
+.user ul li { float:left;}
+.user ul li span { letter-spacing:16px;}
+.user ul .li1 { height:40px; width:65px; color:#5e7991;}
+.user ul .li2 { height:40px; width:150px;}
+.user ul .li3 { height:40px; width:96px;}
+.user ul .li4 { height:34px; padding-top:4px;}
+.user ul .li5 { height:40px; width:80px;}
+.text1 { width:150px; height:16px; border:solid 1px #5e7991;}
+.text2 { width:80px; height:16px; border:solid 1px #5e7991;}
+.footfont {width:1000px; height:20px; line-height:20px; margin:auto; text-align:center; font-size:10px;}
+.footbg { width:100%; height:44px; background:url(../imgs/footerbg.png) repeat-x;}
+

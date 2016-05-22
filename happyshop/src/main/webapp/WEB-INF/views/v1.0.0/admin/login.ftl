@@ -7,11 +7,11 @@
 <meta http-equiv="Cache-Control" content="no-cache" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
-<link rel="stylesheet" type="text/css" href="${base}/styles/login.css" />
-<link href="${base}/styles/index.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" type="text/javascript" src="${base}/scripts/framework/jquery.js"></script>
-<script language="JavaScript" type="text/javascript" src="${base}/scripts/framework/jquery.form.js"></script>
-<script language="javascript" type="text/javascript" src="${base}/scripts/system/login/login.js"></script>
+<link rel="stylesheet" type="text/css" href="${base}/static/v1.0.0/css/login.css" />
+<link rel="stylesheet" type="text/css" href="${base}/static/v1.0.0/css/index.css" />
+<script type="text/javascript" src="${base}/static/v1.0.0/js/common/jquery.js"></script>
+<script type="text/javascript" src="${base}/static/v1.0.0/js/common/jquery.form.js"></script>
+<script type="text/javascript" src="${base}/static/v1.0.0/js/login/login.js"></script>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
 									onsubmit="return checkForm();">
 									<s:hidden id="errorInfo" name="errorInfo"></s:hidden>
 									<!-- 登陆信息 -->
-									<div class="loginfont">登陆&nbsp;E购-网上商城系统(B2C)</div>
+									<div class="loginfont">登陆&nbsp;欢乐购-网上商城系统</div>
 									<table align="left" width="100%" border="0" cellspacing="0" cellpadding="0" style="line-height: 2.5em;">
 										<tr>
 											<td width="25%" align="right"><font size="2.75em">用户名：</font></td>

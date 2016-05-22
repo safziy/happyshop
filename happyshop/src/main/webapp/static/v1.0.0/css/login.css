@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin:0; padding:0; font-size:0.75em; font-family:Arial, Helvetica, sans-serif;
+	line-height:1.8em; text-align:center; color:#333;
+}
+img {
+    border:0;
+}
+a,a:link { 
+    color:#555; text-decoration:none;
+}
+a:hover {
+    color:#f60;
+}
+form {
+    margin:0; padding:0;
+}
+input {
+    font-size:1em;
+}
+input.text, input.notice {
+    border:1px solid #ccc;
+	width:200px;
+	height:1.6em;
+	line-height:1.6em;
+	vertical-align:middle;
+}
+input.notice {
+    background-color:#FFCCCC;
+}
+/*  Public
+------------------------------------------------------------------------------------------------------------------------------------------*/
+.xmwidth {
+    width:900px;
+}
+.auto_center {
+    margin:0 auto;
+}
+.float_left {
+    float:left;
+}
+.float_right {
+    float:right;
+}
+.clear {
+    clear:both;
+}
+.border {
+    border:1px solid #009933;
+	padding:0 2em;
+	padding-top:2em;
+}
+.red {
+    color:#f00;
+	padding:0 5px;
+}
+.lableL {
+    float:left;
+	padding-bottom:10px;
+	width:400px;
+	text-align:right;
+	font-weight:bolder;
+}
+.lableR {
+    float:right;
+	padding-bottom:10px;
+	width:600px;
+	text-align:left;
+}
+/*  header
+------------------------------------------------------------------------------------------------------------------------------------------*/
+#header {
+    height:144px;
+	background:url(../Images/index_01.gif) top repeat-x;
+	text-align:center;
+	border-bottom:2px solid #ccc;
+}
+#header ul {
+    height:144px;
+	margin:0 auto; padding:0;
+	list-style:none; text-align:left;
+}
+#header ul li.top {
+    height:24px; line-height:2em;
+}
+#header ul li.nav {
+    height:120px; text-align:center;
+}
+#logo {
+    height:120px; width:219px;
+	margin:0; padding:0;
+}
+/*  banner
+-------------------------------------*/
+#banner {
+    height:120px; width:781px;
+	margin:0 auto; padding:0; float:left;
+	background:url(../Images/LOGO/login-04.jpg) top right no-repeat;
+}
+/*  mainContent
+------------------------------------------------------------------------------------------------------------------------------------------*/
+#mainContent {
+	padding:3em 0; text-align:center;
+	height:auto;
+}
+#mainContent dl {
+	padding:0px;
+	text-align:center;
+}
+#mainContent dl dt {
+	text-align:left;
+	font-size:14px;
+}
+#mainContent dl dt.title {
+    position:absolute;
+	z-index:1000;
+	top:-29px; left:1em;
+	width:450px;
+	height:30px;
+	font-weight:bolder;
+}
+#mainContent dl dt.title a {
+    position:relative;
+	background-image:url(../Images/index_01_y.gif);
+	background-repeat:repeat-x;
+	background-position:0 0;
+    padding:4px 0;
+    border:1px solid #ccc;
+	border-bottom:none;
+	color:#999;
+	line-height:29px;
+	cursor:hand;
+}
+#mainContent dl dt.title a.active {
+	padding:6px 0;
+	background-image:url(../Images/index_02_y.gif);
+	background-repeat:repeat-x;
+	background-position:0 0;
+	border:1px solid #009933;
+	border-bottom:none;
+	color:#333;
+}
+#mainContent dl dt.title span {
+    padding:0px 1em; line-height:30px;
+}
+#mainContent dl dd {
+	padding:0;
+	margin:0; 
+	text-align:left;
+}
+#mainContent dl dd img {
+    vertical-align:middle;
+}
+#mainContent ul {
+    list-style-type:none;
+	margin:0; padding:10px 30px;
+}
+#mainContent ul li {
+    line-height:58px;
+	margin-bottom:1em;
+}
+#rigesiter {
+    width:400px; float:left;
+	margin:0; padding:10px 0 0 3em;
+	border-right:1px #CCC solid;
+	text-align:left;
+}
+#rigesiter dl.info {
+    margin:0; padding:0;
+	width:100%;
+}
+#rigesiter dl.info dd {
+    margin:0; padding:0;
+}
+#rigesiter dl.info dt {
+    font-size:1em;
+	text-align:left;
+}
+#rigesiter ul.info {
+    list-style-type:none;
+	margin:0; padding:0; border:none;
+}
+#rigesiter ul.info li {
+    height:40px;
+}
+/*  Footer
+------------------------------------------------------------------------------------------------------------------------------------------*/
+#footer {
+	height:80px;
+	text-align:left;
+	border-top:1px #ccc solid;
+}
+#footer p.copyright {
+	line-height:80px;
+	margin:0;
+}
+
