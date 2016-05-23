@@ -5,13 +5,16 @@
 <struts>
 
 	<constant name="struts.devMode" value="true" />
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
 	
 	<package name="default" namespace="/" extends="struts-default">
 	
+		<!-- 
 		<default-action-ref name="adminLogin" />
+		 -->
 	
 		<action name="adminLogin" class="com.safziy.happyshop.action.struts2.AdminLoginAction">
-			<result type="freemarker">/WEB-INF/views/v1.0.0/admin/main.ftl</result>
+			<result name="success" type="freemarker">/WEB-INF/views/v1.0.0/admin/main.ftl</result>
 			<result name="login" type="freemarker">/WEB-INF/views/v1.0.0/admin/login.ftl</result>
 		</action>
 		

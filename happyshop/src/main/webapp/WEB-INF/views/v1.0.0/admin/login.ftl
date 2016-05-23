@@ -31,7 +31,7 @@
 					<td>
 						<div class="right">
 							<div class="login">
-								<form action="${base}/SysLogin!login.do" name="loginForm" id="loginForm" method="post"
+								<form action="${base}/adminLogin!login.action" name="loginForm" id="loginForm" method="post"
 									onsubmit="return checkForm();">
 									<s:hidden id="errorInfo" name="errorInfo"></s:hidden>
 									<!-- 登陆信息 -->
@@ -40,13 +40,13 @@
 										<tr>
 											<td width="25%" align="right"><font size="2.75em">用户名：</font>
 											</td>
-											<td><input name="sysUser.code" type="text" class="text" id="UserName"
+											<td><input name="username" type="text" class="text" id="UserName"
 												style="width: 120px; height: 1.45em;" />&nbsp;&nbsp;<span id="showmsgUserA"></span></td>
 										</tr>
 										<tr>
 											<td align="right"><font size="2.75em">密&nbsp;&nbsp;&nbsp;码：</font>
 											</td>
-											<td><input name="sysUser.pwd" type="password" class="text" id="password"
+											<td><input name="password" type="password" class="text" id="password"
 												style="width: 120px; height: 1.45em;" /></td>
 										</tr>
 										<tr>
@@ -62,10 +62,10 @@
 													<ul>
 														<li class="li1"></li>
 														<li class="li5"><input name="submit" type="submit" class="buttun" value=""
-															style="background-image:url(${base}/imgs/loginbtn.gif); border:0; height:24px; width:68px;" />
+															style="background-image:url(${base}/static/v1.0.0/images/btn_login.gif); border:0; height:24px; width:68px;" />
 														</li>
 														<li class="li5"><input name="clear" type="reset" class="buttun" value=""
-															style="background-image:url(${base}/imgs/clear.gif); border:0; height:24px; width:68px;" />
+															style="background-image:url(${base}/static/v1.0.0/images/btn_clear.gif); border:0; height:24px; width:68px;" />
 														</li>
 													</ul>
 												</div>

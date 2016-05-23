@@ -16,7 +16,7 @@
 		<jstl-version>1.2</jstl-version>
 		<spring-version>4.1.6.RELEASE</spring-version>
 		<aspectjweaver-version>1.8.9</aspectjweaver-version>
-		<struts2-version>2.3.28.1</struts2-version>
+		<struts2-version>2.3.16.3</struts2-version>
 		<junit-version>4.11</junit-version>
 	</properties>
 
