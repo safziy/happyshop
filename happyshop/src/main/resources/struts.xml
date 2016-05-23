@@ -8,10 +8,11 @@
 	
 	<package name="default" namespace="/" extends="struts-default">
 	
-		<default-action-ref name="login" />
+		<default-action-ref name="adminLogin" />
 	
-		<action name="login" class="com.safziy.happyshop.action.struts2.LoginAction">
-			<result type="freemarker">/WEB-INF/views/v1.0.0/admin/login.ftl</result>
+		<action name="adminLogin" class="com.safziy.happyshop.action.struts2.AdminLoginAction">
+			<result type="freemarker">/WEB-INF/views/v1.0.0/admin/main.ftl</result>
+			<result name="login" type="freemarker">/WEB-INF/views/v1.0.0/admin/login.ftl</result>
 		</action>
 		
 	</package>
