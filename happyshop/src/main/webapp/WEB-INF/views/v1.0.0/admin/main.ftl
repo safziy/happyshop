@@ -1,17 +1,17 @@
 <#assign base=request.contextPath>
 <html>
 <head>
-<title>E购-网上商城系统(B2C)</title>
+<title>欢乐购-网上商城系统</title>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <meta http-equiv="Cache-Control" content="no-cache" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
-<link rel="stylesheet" type="text/css" href="${base}/static/v1.0.0/css/index/index4.css" />
-<link rel="stylesheet" type="text/css" href="${base}/static/v1.0.0/scripts/framework/easyui/themes/default/easyui.css">
-<link rel="stylesheet" type="text/css" href="${base}/static/v1.0.0/scripts/framework/easyui/themes/icon.css">
-<script language="JavaScript" type="text/javascript" src="${base}/static/v1.0.0/scripts/framework/jquery.js"></script>
-<script type="text/javascript" src="${base}/static/v1.0.0/scripts/framework/easyui/jquery.easyui.min.js"></script>
-<script language="JavaScript" type="text/javascript" src="${base}/static/v1.0.0/scripts/index/main.js"></script>
+<link rel="stylesheet" type="text/css" href="${base}/static/v1.0.0/css/index4.css" />
+<link rel="stylesheet" type="text/css" href="${base}/static/v1.0.0/easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="${base}/static/v1.0.0/easyui/themes/icon.css">
+<script type="text/javascript" src="${base}/static/v1.0.0/js/common/jquery.js"></script>
+<script type="text/javascript" src="${base}/static/v1.0.0/easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="${base}/static/v1.0.0/js/main.js"></script>
 </head>
 
 <body class="easyui-layout">
@@ -21,12 +21,12 @@
 		</div>
 		<div class="banner for">
 			<div class="peo3">
-				<img src="${base }/Images/index/peo3.gif" height="23" width="17" />
+				<img src="${base}/static/v1.0.0/images/main/peo3.gif" height="23" width="17" />
 			</div>
 			<div class="font1">loginUser.roleName&nbsp;系统</div>
 			<div class="font2">
 				loginUser.name,欢迎登录! <a href="javascript:void(0)" target="_self" onClick="javascript:logout();"> <img
-					src="${base }/Images/index/bott.gif" alt="退出" width="46" height="16" border="0"> </a>
+					src="${base}/static/v1.0.0/images/main/bott.gif" alt="退出" width="46" height="16" border="0"> </a>
 			</div>
 		</div>
 	</div>
@@ -35,11 +35,10 @@
 		<div class="leftbanner">
 
 			<!-- 菜单 开始 -->
-			
 			<#if powerMap['customer']??>
 				<div class="ban1">
 					<div class="pic">
-						<img src="${base }/Images/index/peo3.gif" width="21" height="18" />
+						<img src="${base}/static/v1.0.0/images/main/peo3.gif" width="21" height="18" />
 					</div>
 					<div class="font4">会员管理</div>
 				</div>
@@ -67,7 +66,7 @@
 			<#if powerMap['good']??>
 				<div class="ban1">
 					<div class="pic">
-						<img src="${base }/formImg/303.gif" width="21" height="18" />
+						<img src="${base}/static/v1.0.0/images/303.gif" width="21" height="18" />
 					</div>
 					<div class="font4">商品管理</div>
 				</div>
@@ -107,7 +106,7 @@
 		    <#if powerMap['order']??>
 				<div class="ban1">
 					<div class="pic">
-						<img src="${base }/formImg/202.gif" width="21" height="18" />
+						<img src="${base}/static/v1.0.0/images/202.gif" width="21" height="18" />
 					</div>
 					<div class="font4">销售管理</div>
 				</div>
@@ -128,7 +127,7 @@
 			<#if powerMap['warehouse']??>
 				<div class="ban1">
 					<div class="pic">
-						<img src="${base }/formImg/icon_36.gif" width="21" height="18" />
+						<img src="${base}/static/v1.0.0/images/icon_36.gif" width="21" height="18" />
 					</div>
 					<div class="font4">仓库管理</div>
 				</div>
@@ -148,7 +147,7 @@
 			<#if powerMap['market']??>
 				<div class="ban1">
 					<div class="pic">
-						<img src="${base }/formImg/icon_16.gif" width="21" height="18" />
+						<img src="${base}/static/v1.0.0/images/icon_16.gif" width="21" height="18" />
 					</div>
 					<div class="font4">营销活动</div>
 				</div>
@@ -184,7 +183,7 @@
 			<#if powerMap['information']??>
 				<div class="ban1">
 					<div class="pic">
-						<img src="${base }/formImg/104.gif" width="21" height="18" />
+						<img src="${base}/static/v1.0.0/images/104.gif" width="21" height="18" />
 					</div>
 					<div class="font4">资讯管理</div>
 				</div>
@@ -203,7 +202,7 @@
 			<#if powerMap['mall']??>
 				<div class="ban1">
 					<div class="pic">
-						<img src="${base }/formImg/icon_56.gif" width="21" height="18" />
+						<img src="${base}/static/v1.0.0/images/icon_56.gif" width="21" height="18" />
 					</div>
 					<div class="font4">商城设置</div>
 				</div>
@@ -228,7 +227,7 @@
 			<#if powerMap['baseinfo']??>
 				<div class="ban1">
 					<div class="pic">
-						<img src="${base }/formImg/icon_47.gif" width="21" height="18" />
+						<img src="${base}/static/v1.0.0/images/icon_47.gif" width="21" height="18" />
 					</div>
 					<div class="font4">基本信息</div>
 				</div>
@@ -252,7 +251,7 @@
 			<#if powerMap['formcenter']??>
 				<div class="ban1">
 					<div class="pic">
-						<img src="${base }/formImg/Chart.gif" width="21" height="18" />
+						<img src="${base}/static/v1.0.0/images/Chart.gif" width="21" height="18" />
 					</div>
 					<div class="font4">报表中心</div>
 				</div>
@@ -269,7 +268,7 @@
 			<#if powerMap['dataflow']??>
 				<div class="ban1">
 					<div class="pic">
-						<img src="${base }/formImg/notepad.gif" width="21" height="18" />
+						<img src="${base}/static/v1.0.0/images/notepad.gif" width="21" height="18" />
 					</div>
 					<div class="font4">流量统计</div>
 				</div>
@@ -284,7 +283,7 @@
 			<#if powerMap['system']??>
 				<div class="ban1">
 					<div class="pic">
-						<img src="${base }/formImg/user.gif" width="21" height="18" />
+						<img src="${base}/static/v1.0.0/images/user.gif" width="21" height="18" />
 					</div>
 					<div class="font4">系统管理</div>
 				</div>
@@ -309,7 +308,7 @@
 			<#if powerMap['desktop']??>
 				<div class="ban1">
 					<div class="pic">
-						<img src="${base }/Images/index/maintenance.gif" width="21" height="18" />
+						<img src="${base}/static/v1.0.0/images/maintenance.gif" width="21" height="18" />
 					</div>
 					<div class="font4">我的桌面</div>
 				</div>

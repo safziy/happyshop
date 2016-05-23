@@ -19,12 +19,6 @@ public class AdminLoginAction extends BaseAction {
 
 	private AdminUserService adminUserService = new AdminUserService();
 
-	@Override
-	public String execute() throws Exception {
-		System.out.println("AdminLoginAction execute()");
-		return SUCCESS;
-	}
-
 	public String login() {
 		System.out.println("AdminLoginAction login()");
 		AdminUser loginAdminUser = getSessionUserInfo();
