@@ -17,7 +17,7 @@
 <body class="easyui-layout">
 	<div region="north" style="height: 114px; background-color: #86aeec;">
 		<div class="header">
-			<div class="tel">服务热线:400-100-1922</div>
+			<div class="tel">服务热线:400-123-4567</div>
 		</div>
 		<div class="banner for">
 			<div class="peo3">
